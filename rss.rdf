@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+>
+  <channel rdf:about="https://zhangyoufu.github.io/lwn/rss.rdf">
+    <title>LWN.net</title>
+    <link>https://lwn.net</link>
+    <description>
+      LWN.net is a comprehensive source of news and opinions from
+      and about the Linux community. This is the main LWN.net feed,
+      listing all articles which are posted to the site front page.
+    </description>
+    <syn:updatePeriod>hourly</syn:updatePeriod>
+    <syn:updateFrequency>6</syn:updateFrequency>
+    <atom:link rel="self" href="https://zhangyoufu.github.io/lwn/rss.rdf" />
+    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="https://lwn.net/Articles/879996/rss" />
+        <rdf:li resource="https://lwn.net/Articles/879995/rss" />
+        <rdf:li resource="https://lwn.net/Articles/879952/rss" />
+        <rdf:li resource="https://lwn.net/Articles/879901/rss" />
+        <rdf:li resource="https://lwn.net/Articles/879891/rss" />
+        <rdf:li resource="https://lwn.net/Articles/879792/rss" />
+        <rdf:li resource="https://lwn.net/Articles/879791/rss" />
+        <rdf:li resource="https://lwn.net/Articles/879765/rss" />
+        <rdf:li resource="https://lwn.net/Articles/879739/rss" />
+        <rdf:li resource="https://lwn.net/Articles/879679/rss" />
+        <rdf:li resource="https://lwn.net/Articles/879675/rss" />
+        <rdf:li resource="https://lwn.net/Articles/878143/rss" />
+        <rdf:li resource="https://lwn.net/Articles/878675/rss" />
+        <rdf:li resource="https://lwn.net/Articles/878281/rss" />
+        <rdf:li resource="https://lwn.net/Articles/878205/rss" />
+        <rdf:li resource="https://lwn.net/Articles/877964/rss" />
+        <rdf:li resource="https://lwn.net/Articles/877845/rss" />
+        <rdf:li resource="https://lwn.net/Articles/879495/rss" />
+        <rdf:li resource="https://lwn.net/Articles/879492/rss" />
+        <rdf:li resource="https://lwn.net/Articles/879379/rss" />
+      </rdf:Seq>
+    </items>
+  </channel>
+    <item rdf:about="https://lwn.net/Articles/879996/rss">
+      <title>The last stable kernels for 2021</title>
+      <link>https://lwn.net/Articles/879996/</link>
+      <dc:date>2021-12-29T15:01:27+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      The
+&lt;a href=&quot;https://lwn.net/Articles/879997/&quot;&gt;5.15.12&lt;/a&gt;,
+&lt;a href=&quot;https://lwn.net/Articles/879998/&quot;&gt;5.10.89&lt;/a&gt;,
+&lt;a href=&quot;https://lwn.net/Articles/879999/&quot;&gt;5.4.169&lt;/a&gt;,
+&lt;a href=&quot;https://lwn.net/Articles/880000/&quot;&gt;4.19.223&lt;/a&gt;,
+&lt;a href=&quot;https://lwn.net/Articles/880001/&quot;&gt;4.14.260&lt;/a&gt;,
+&lt;a href=&quot;https://lwn.net/Articles/880002/&quot;&gt;4.9.295&lt;/a&gt;, and
+&lt;a href=&quot;https://lwn.net/Articles/880003/&quot;&gt;4.4.297&lt;/a&gt;
+stable kernel updates have all been released.  These should be the last
+updates for this year; as usual, they all contain more important fixes and
+updates.
+      
+      </description>
+    </item>
+    <item rdf:about="https://lwn.net/Articles/879995/rss">
+      <title>Security updates for Wednesday</title>
+      <link>https://lwn.net/Articles/879995/</link>
+      <dc:date>2021-12-29T14:56:45+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      Security updates have been issued by &lt;b&gt;Debian&lt;/b&gt; (firefox-esr, python-gnupg, resiprocate, and ruby-haml), &lt;b&gt;Fedora&lt;/b&gt; (mod_auth_mellon), &lt;b&gt;openSUSE&lt;/b&gt; (thunderbird), &lt;b&gt;Slackware&lt;/b&gt; (wpa_supplicant), and &lt;b&gt;SUSE&lt;/b&gt; (gegl).
+
+      
+      </description>
+    </item>
+    <item rdf:about="https://lwn.net/Articles/879952/rss">
+      <title>Security updates for Tuesday</title>
+      <link>https://lwn.net/Articles/879952/</link>
+      <dc:date>2021-12-28T15:44:20+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      Security updates have been issued by &lt;b&gt;Debian&lt;/b&gt; (djvulibre, libzip, monit, novnc, okular, paramiko, postgis, rdflib, ruby2.3, and zziplib), &lt;b&gt;openSUSE&lt;/b&gt; (chromium, kafka, and permissions), and &lt;b&gt;SUSE&lt;/b&gt; (net-snmp and permissions).
+
+      
+      </description>
+    </item>
+    <item rdf:about="https://lwn.net/Articles/879901/rss">
+      <title>Kernel prepatch 5.16-rc7</title>
+      <link>https://lwn.net/Articles/879901/</link>
+      <dc:date>2021-12-27T17:27:15+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      The &lt;a href=&quot;https://lwn.net/Articles/879900/&quot;&gt;5.16-rc7&lt;/a&gt; kernel prepatch is out for
+testing.  &quot;&lt;span&gt;Obviously the holidays are a big reason it's all small, so
+it's not like this is a sign of us having found all bugs, and we'll keep at
+this for at least two more weeks&lt;/span&gt;&quot;.
+      
+      </description>
+    </item>
+    <item rdf:about="https://lwn.net/Articles/879891/rss">
+      <title>Security updates for Monday</title>
+      <link>https://lwn.net/Articles/879891/</link>
+      <dc:date>2021-12-27T15:20:35+00:00</dc:date>
+      <dc:creator>jake</dc:creator>
+      <description>
+      Security updates have been issued by &lt;b&gt;Debian&lt;/b&gt; (apache-log4j2, libextractor, libpcap, and wireshark), &lt;b&gt;Fedora&lt;/b&gt; (grub2, kernel, libopenmpt, log4j, mingw-binutils, mingw-python-lxml, and seamonkey), &lt;b&gt;Mageia&lt;/b&gt; (golang, lapack/openblas, and samba), and &lt;b&gt;openSUSE&lt;/b&gt; (go1.16, libaom, log4j12, logback, and runc).
+
+      
+      </description>
+    </item>
+    <item rdf:about="https://lwn.net/Articles/879792/rss">
+      <title>Jami &quot;Taranis&quot; released</title>
+      <link>https://lwn.net/Articles/879792/</link>
+      <dc:date>2021-12-24T15:26:20+00:00</dc:date>
+      <dc:creator>jake</dc:creator>
+      <description>
+      The &lt;a href=&quot;https://jami.net/&quot;&gt;Jami&lt;/a&gt; communication tool has released a major new stable version called &quot;Taranis&quot;; the &lt;a href=&quot;https://jami.net/taranis-a-major-release-of-jami/&quot;&gt;blog post announcement&lt;/a&gt; explains: &quot;&lt;span&gt;Taranis, the Gallic and Celtic god of the sky, lightning and thunder, will be the baptismal name of this new version of Jami.&lt;/span&gt;&quot;  The mailing-list announcement describes the tool this way:
+&lt;blockquote class=&quot;bq&quot;&gt;
+Jami is a GNU package for universal communication that respects the
+freedom and privacy of its users.  Jami is an end-to-end encrypted
+secure and distributed voice, video, and chat communication platform
+that requires no central server, and leaves the power of privacy and
+freedom in the hands of users.
+&lt;/blockquote&gt;
+&lt;p&gt;
+Another recent &lt;a href=&quot;https://jami.net/the-jami-conferencing-system/&quot;&gt;blog post&lt;/a&gt; gives an overview of Jami for video conferences. The new release has improvements throughout the system, including the first phase of &lt;a href=&quot;https://jami.net/swarm-introducing-a-new-generation-of-group-conversations/&quot;&gt;Swarm&lt;/a&gt; support, which are &quot;&lt;span&gt;fully distributed, peer-to-peer chats with conversation
+    histories synchronized across your devices, and the potential to
+    be expanded into group chats in upcoming future releases of Jami&lt;/span&gt;&quot;. 
+
+      
+      </description>
+    </item>
+    <item rdf:about="https://lwn.net/Articles/879791/rss">
+      <title>Security updates for Friday</title>
+      <link>https://lwn.net/Articles/879791/</link>
+      <dc:date>2021-12-24T15:04:21+00:00</dc:date>
+      <dc:creator>jake</dc:creator>
+      <description>
+      Security updates have been issued by &lt;b&gt;Debian&lt;/b&gt; (webkit2gtk and wpewebkit), &lt;b&gt;Fedora&lt;/b&gt; (httpd and singularity), &lt;b&gt;Mageia&lt;/b&gt; (ldns, netcdf, php, ruby, thrift/golang-github-apache-thrift, thunderbird, and webkit2), &lt;b&gt;openSUSE&lt;/b&gt; (go1.16, go1.17, libaom, and p11-kit), and &lt;b&gt;SUSE&lt;/b&gt; (go1.16, go1.17, htmldoc, libaom, libvpx, logstash, openssh-openssl1, python3, and runc).
+
+      
+      </description>
+    </item>
+    <item rdf:about="https://lwn.net/Articles/879765/rss">
+      <title>Darktable 3.8.0 released</title>
+      <link>https://lwn.net/Articles/879765/</link>
+      <dc:date>2021-12-24T15:03:32+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      &lt;a
+href=&quot;https://www.darktable.org/2021/12/darktable-3.8.0-released/&quot;&gt;Version
+3.8.0&lt;/a&gt; of the Darktable photo-processing application has been released.
+Significant changes include a new keyboard shortcut system, a new
+diffuse-or-sharpen module, a new &quot;scene-referred&quot; blurs module &quot;&lt;span&gt;to
+synthesize motion and lens blurs in a parametric and physically accurate
+way&lt;/span&gt;&quot;, support for the Canon CR3 raw format, and more.
+      
+      </description>
+    </item>
+    <item rdf:about="https://lwn.net/Articles/879739/rss">
+      <title>Systemd 250 released</title>
+      <link>https://lwn.net/Articles/879739/</link>
+      <dc:date>2021-12-23T23:46:33+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      Systemd 250 has been released.  To say that the list of new features is
+long would be a severe understatement; the developers have clearly been
+busy.
+&lt;p&gt;
+&lt;blockquote class=&quot;bq&quot;&gt;
+
+	systemd-homed now makes use of UID mapped mounts for the home areas.
+          If the kernel and used file system support it, files are now
+          internally owned by the &quot;nobody&quot; user (i.e. the user typically used
+          for indicating &quot;this ownership is not mapped&quot;), and dynamically
+          mapped to the UID used locally on the system via the UID mapping
+          mount logic of recent kernels. This makes migrating home areas
+          between different systems cheaper because recursively chown()ing file
+          system trees is no longer necessary.
+&lt;/blockquote&gt;
+&lt;p&gt;
+(See &lt;a href=&quot;https://lwn.net/Articles/837566/&quot;&gt;this article&lt;/a&gt; for a description of
+ID-mapped mounts).
+
+      
+      </description>
+    </item>
+    <item rdf:about="https://lwn.net/Articles/879679/rss">
+      <title>Krita 5.0 released</title>
+      <link>https://lwn.net/Articles/879679/</link>
+      <dc:date>2021-12-23T15:23:48+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      &lt;a href=&quot;https://krita.org/en/item/krita-5-0-released/&quot;&gt;Version 5.0&lt;/a&gt; of
+the Krita painting program has been released.
+&quot;&lt;span&gt;This is a huge release, with a lot of new features and
+improvements&lt;/span&gt;&quot;. 
+Changes include a reworked
+resource system, dithered gradients, faster color management, a reworked
+animation subsystem, and more; see &lt;a
+href=&quot;https://krita.org/en/krita-5-0-release-notes/&quot;&gt;the release notes&lt;/a&gt;
+for details.
+      
+      </description>
+    </item>
+    <item rdf:about="https://lwn.net/Articles/879675/rss">
+      <title>Security updates for Thursday</title>
+      <link>https://lwn.net/Articles/879675/</link>
+      <dc:date>2021-12-23T14:30:07+00:00</dc:date>
+      <dc:creator>jake</dc:creator>
+      <description>
+      Security updates have been issued by &lt;b&gt;Debian&lt;/b&gt; (openjdk-11), &lt;b&gt;Fedora&lt;/b&gt; (keepalived and tang), &lt;b&gt;openSUSE&lt;/b&gt; (openssh, p11-kit, runc, and thunderbird), &lt;b&gt;Oracle&lt;/b&gt; (postgresql:12, postgresql:13, and virt:ol and virt-devel:ol), &lt;b&gt;Red Hat&lt;/b&gt; (rh-maven36-log4j12), and &lt;b&gt;SUSE&lt;/b&gt; (ansible, chrony, logstash, elasticsearch, kafka, zookeeper, openstack-monasca-agent, openstack-monasca-persister-java, openstack-monasca-thresh, openssh, p11-kit, python-Babel, and thunderbird).
+
+      
+      </description>
+    </item>
+    <item rdf:about="https://lwn.net/Articles/878143/rss">
+      <title>LWN.net Weekly Edition for December 16, 2021</title>
+      <link>https://lwn.net/Articles/878143/</link>
+      <dc:date>2021-12-23T00:00:00+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      The LWN.net Weekly Edition for December 16, 2021 is available.
+
+      
+      </description>
+    </item>
+    <item rdf:about="https://lwn.net/Articles/878675/rss">
+      <title>Wrangling the typing PEPs</title>
+      <link>https://lwn.net/Articles/878675/</link>
+      <dc:date>2021-12-23T00:00:00+00:00</dc:date>
+      <dc:creator>jake</dc:creator>
+      <description>
+      When last we looked in on the &lt;a href=&quot;https://lwn.net/Articles/866613/&quot;&gt;great typing PEP
+debate&lt;/a&gt; for Python, back in August, two PEPs were still being
+discussed as alternatives for handling annotations in the language.
+The steering council was considering the issue after deferring on a
+decision for the Python&amp;nbsp;3.10 release, but the question has been
+deferred again for Python&amp;nbsp;3.11.  More study is needed and the council
+is looking for help from the Python community to guide its
+decision.  In the meantime, though, discussion about the deferral has led
+to the understanding that annotations are not a general-purpose feature,
+but are only meant for typing information.  In addition, there is a growing
+realization that typing information is effectively becoming mandatory
+for Python libraries.
+
+      
+      </description>
+    </item>
+    <item rdf:about="https://lwn.net/Articles/878281/rss">
+      <title>Adding fs-verity support for Fedora 36?</title>
+      <link>https://lwn.net/Articles/878281/</link>
+      <dc:date>2021-12-23T00:00:00+00:00</dc:date>
+      <dc:creator>jake</dc:creator>
+      <description>
+      Adding &lt;a href=&quot;https://lwn.net/Articles/790185/&quot;&gt;fs-verity&lt;/a&gt; file-integrity information
+to RPM packages for Fedora&amp;nbsp;36 is the 
+topic of a recent discussion on the Fedora devel mailing list.  The feature
+would provide a means to install files from RPM packages as read-only files
+that cannot be read or otherwise operated on if the data in the files changes
+at any point.  The proposal is mostly about making the plumbing available
+for use cases that are not particularly clear—which has led to some
+questions and skepticism among those participating in the thread.
+
+      
+      </description>
+    </item>
+    <item rdf:about="https://lwn.net/Articles/878205/rss">
+      <title>Digging into the community's lore with lei</title>
+      <link>https://lwn.net/Articles/878205/</link>
+      <dc:date>2021-12-23T00:00:00+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      Email is often seen as a technology with a dim future; it is slow, easily
+faked, and buried in spam.  Kids These Days want nothing to do with it, and
+email has lost its charm with many others as well.
+But many development projects are still dependent on it, and even
+non-developers still cope with large volumes of mail.  While development
+forges show one possible path away from email, they are not the only one.
+What if new structures could be built on top of email to address some of
+its worst problems while keeping the good parts that many projects depend
+on?  The &quot;lei&quot; system recently launched by Konstantin Ryabitsev is a hint
+of how such a future might look.
+
+      
+      </description>
+    </item>
+    <item rdf:about="https://lwn.net/Articles/877964/rss">
+      <title>Stochastic bisection in Git</title>
+      <link>https://lwn.net/Articles/877964/</link>
+      <dc:date>2021-12-23T00:00:00+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      Regressions are no fun; among other things, finding the source of a
+regression among thousands of changes can be a needle-in-the-haystack sort
+of problem.  The &lt;a href=&quot;https://git-scm.com/docs/git-bisect&quot;&gt;&lt;tt&gt;git
+bisect&lt;/tt&gt;&lt;/a&gt; 
+command can help; it is a (relatively) easy way to sift through 
+large numbers of commits to find the one that introduces a regression.  When it
+works well, it can quickly point out the change that causes a specific
+problem.  Bisection is not a perfect tool, though; it can go badly wrong in
+situations where a bug cannot be reliably reproduced.  In an attempt to
+make bisection more useful in such cases, Jan Kara is proposing to &lt;a
+href=&quot;https://lwn.net/ml/git/20211118164940.8818-1-jack@suse.cz/&quot;&gt;add &quot;stochastic
+bisection&quot; support&lt;/a&gt; to Git.
+
+      
+      </description>
+    </item>
+    <item rdf:about="https://lwn.net/Articles/877845/rss">
+      <title>Blocking straight-line speculation — eventually</title>
+      <link>https://lwn.net/Articles/877845/</link>
+      <dc:date>2021-12-23T00:00:00+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      The Spectre class of vulnerabilities was given that name because, it was
+thought, these problems would haunt us for a long time.  As the fourth
+anniversary of &lt;a href=&quot;https://lwn.net/Articles/742702/&quot;&gt;the disclosure of Meltdown and
+Spectre&lt;/a&gt; approaches, there is no reason to doubt the accuracy of that
+name.  One of 
+the more recent Spectre variants goes by the name &quot;straight-line
+speculation&quot;; it was first disclosed in June 2020, but fixes are still
+trying to find their way into the compilers and the kernel.
+
+      
+      </description>
+    </item>
+    <item rdf:about="https://lwn.net/Articles/879495/rss">
+      <title>A set of stable kernels</title>
+      <link>https://lwn.net/Articles/879495/</link>
+      <dc:date>2021-12-22T14:31:37+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      Today's stable kernel updates are
+&lt;a href=&quot;https://lwn.net/Articles/879496/&quot;&gt;5.15.11&lt;/a&gt;,
+&lt;a href=&quot;https://lwn.net/Articles/879497/&quot;&gt;5.10.88&lt;/a&gt;,
+&lt;a href=&quot;https://lwn.net/Articles/879498/&quot;&gt;5.4.168&lt;/a&gt;,
+&lt;a href=&quot;https://lwn.net/Articles/879499/&quot;&gt;4.19.222&lt;/a&gt;,
+&lt;a href=&quot;https://lwn.net/Articles/879500/&quot;&gt;4.14.259&lt;/a&gt;,
+&lt;a href=&quot;https://lwn.net/Articles/879501/&quot;&gt;4.9.294&lt;/a&gt;, and
+&lt;a href=&quot;https://lwn.net/Articles/879502/&quot;&gt;4.4.296&lt;/a&gt;.
+Each contains another set of important fixes.
+      
+      </description>
+    </item>
+    <item rdf:about="https://lwn.net/Articles/879492/rss">
+      <title>Security updates for Wednesday</title>
+      <link>https://lwn.net/Articles/879492/</link>
+      <dc:date>2021-12-22T14:26:12+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      Security updates have been issued by &lt;b&gt;CentOS&lt;/b&gt; (firefox, ipa, log4j, and samba), &lt;b&gt;Debian&lt;/b&gt; (sogo, spip, and xorg-server), &lt;b&gt;Fedora&lt;/b&gt; (jansi and log4j), &lt;b&gt;Mageia&lt;/b&gt; (apache, apache-mod_security, kernel, kernel-linus, and x11-server), &lt;b&gt;openSUSE&lt;/b&gt; (log4j and xorg-x11-server), &lt;b&gt;Oracle&lt;/b&gt; (kernel, log4j, and openssl), and &lt;b&gt;SUSE&lt;/b&gt; (libqt4 and xorg-x11-server).
+
+      
+      </description>
+    </item>
+    <item rdf:about="https://lwn.net/Articles/879379/rss">
+      <title>The Linux Foundation's report on diversity, equity, and inclusion
+in open source</title>
+      <link>https://lwn.net/Articles/879379/</link>
+      <dc:date>2021-12-21T17:16:05+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      The Linux Foundation has &lt;a
+href=&quot;https://www.linuxfoundation.org/blog/addressing-diversity-equity-and-inclusion-in-2021-and-beyond/&quot;&gt;announced&lt;/a&gt;
+the posting of a report on its research into diversity, equity, and
+inclusion in open-source communities.
+&lt;p&gt;
+&lt;blockquote class=&quot;bq&quot;&gt;
+The research shows that while
+a majority of respondents feel welcome in open source, many in
+underrepresented communities do not. We hope that the data and insights
+that this project provides will be a catalyst for strengthening existing
+DEI initiatives and creating new ones.
+&lt;/blockquote&gt;
+&lt;p&gt;
+The full report can be downloaded from &lt;a
+href=&quot;https://www.linuxfoundation.org/tools/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source/&quot;&gt;this page&lt;/a&gt;.
+      
+      </description>
+    </item>
+</rdf:RDF>
